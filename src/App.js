@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import ReactPaginate from "react-paginate";
 
 export default function App() {
-  const [users, setUsers] = useState(JsonData.slice(0, 20));
+  const [users, setUsers] = useState(JsonData.slice(0, 50));
   const [pageNumber, setPageNumber] = useState(0);
 
   // display items per page
